@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:rgba(141, 243, 158, 0.925);
+    background: url(img/background-5050213_960_720.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+main {
+    min-width: 320px;
+    max-width:500px;
+    background-color:rgba(85, 241, 145, 0.37);
+    height:430px;
+    border-radius:20%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top:60px;
+    color: white;
+    margin-bottom:50px;
+   
+    
+}
+header {
+    
+    text-align: center;
+    color: rgba(95, 143, 50, 0.986);
+    font-size: 30px;
+    margin-top:20px;
+
+}
+
+#survey-form {
+    min-width: 320px;
+    max-width:500px;
+    padding-top:5px;
+}
+
+
+label {
+    
+   margin: 0 auto;
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+input {
+    border:solid 1px rgb(110, 108, 108);
+    outline: none;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    height:20px;
+}
+
+.input-textarea {
+    min-height: 40px;
+    min-width: 400px;
+    outline: none;
+    resize: vertical;
+    padding: 0.625rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    margin-top: 10px;
+}
+
+
+#submit {
+    height: 25px;
+    outline: none;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    
+    
+}
+#bottom-comments { 
+    display: block;
+    margin: 0 auto;
+    margin-top:10px;
+    outline: none;
+    
+
+}
+.form-control {
+     min-width: 200px;
+    height:25px;
+     background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-top:5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.itens-check {
+    display: flex;
+    flex-direction:row-reverse;
+    margin-left: 70px;
+    
+}
+
+.itens-check > label {
+    margin-left: 10px;
+    padding-bottom: 5px;
+    
+}
+
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+   
+ 

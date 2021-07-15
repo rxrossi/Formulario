@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id='title'>Create acount</h1>
+        <p id='description'>its ease for create acounte is here!!</p>
+    </header>
+
+<main>
+    <form id="survey-form">
+    <label id='name'>Name</label>
+    <input type="text" name="name" placeholder="Enter your name" id="name-label">
+    <label id='email'>Email</label>
+    <input type="email" name="Email" placeholder="Enter your Email" id="email-label">
+    <label id='number'>Phone</label>
+    <input type="text" name="phone" placeholder="Add your Phone" id="number-label">
+    
+    <div>
+    <p>Would you recommend freecodcamp to a friend?</p>
+    <div class="itens-check">
+    <label for="Definitely">Definitely</label>
+    <input type="radio" id="Definitely" name="fav_language" value="Definitely">
+      <label for="Maybe">Maybe</label>
+    <input type="radio" id="Maybe" name="fav_language" value="Maybe">
+    <label for="Not sure">Not sure</label>
+    <input type="radio" id="Not sure" name="fav_language" value="Not sure">
+    </div>
+    </div>
+    <div id="dropdown">
+        <p>What is your favorite feature of freecodcamp?</p>
+        <select id='dropdown' name='role' class='form-control' required>
+            <option disabled selected value>Select an option</option>
+            <option value='challenges'>Challenges</option>
+            <option value='project'>Projects</option>
+            <option value='community'>Community</option></select>
+    </div>
+    <div>
+    <p>Any comments or suggestions?</p>
+    <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
+    <button id='bottom-comments'>
+        <input class="btn_submit" type="submit" value="Submit" id='submit'>
+    </button>
+    </div>
+</form>
+</main>
+
+    
+</body>
+</html>
